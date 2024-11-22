@@ -1,0 +1,49 @@
+/* Estilo para el cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Fuente general */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para el título */
+h1 {
+    text-align: center;
+    margin: 30px 0 20px; /* Espaciado superior e inferior */
+    font-size: 2.5em; /* Tamaño del título */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo para el contenedor de la sección visión */
+.visión {
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px;
+    max-width: 800px; /* Ancho máximo para limitar el texto */
+    font-size: 1.2em; /* Ajusta el tamaño de la fuente */
+    color: #555; /* Texto en un tono gris para mejor legibilidad */
+    line-height: 1.6; /* Espaciado entre líneas para mejor lectura */
+    text-align: justify; /* Justifica el texto */
+}
+
+/* Estilo para el cuadro blanco */
+.cuadro-blanco {
+    margin: 20px auto; /* Espaciado hacia afuera */
+    width: 80%; /* Ancho del cuadro */
+    max-width: 800px; /* Ancho máximo */
+    height: 150px; /* Altura del cuadro */
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para un efecto elegante */
+    border-radius: 8px; /* Bordes redondeados */
+}
+.logo-img {
+    max-width: 65px; /* Ajusta el ancho máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-top: 3%;
+}
+
+
+
+   
+

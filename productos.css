@@ -1,0 +1,66 @@
+/* Hacer que el contenedor principal ocupe toda la altura de la ventana */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Flex para ajustar la estructura de la página */
+.wrapper {
+    flex: 1; /* Hacer que el contenido principal se expanda */
+}
+
+/* Centrar las imágenes */
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las imágenes */
+    flex-wrap: wrap; /* Ajusta imágenes en líneas si es necesario */
+    margin: 20px 0;
+    margin-top: 5%;
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; /* Empujar el footer al final de la página */
+}
+
+.contacto-footer p {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.contacto-footer p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+.h1{
+    text-align: center;
+    width: 100%;
+}
+.titulo-productos {
+    text-align: center; /* Centrar el texto */
+    font-size: 8em; /* Tamaño más grande */
+    margin-bottom: 20px; /* Espacio entre el título y las imágenes */
+    color: #333; /* Color opcional, ajusta según tu diseño */
+    font-weight: bold; /* Negrita para destacar */
+    margin-top: 5%;
+}
+.logo-img {
+    max-width: 65px; /* Ajusta el ancho máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-top: 3%;
+}

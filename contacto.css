@@ -1,0 +1,5 @@
+.logo-img {
+    max-width: 500px; /* Ajusta el ancho máximo del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-top: 7%;
+}
